@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="CompuiterDatabase_CRUD" verbose="1" >
+
+  <test name="Regression">
+    <classes>
+      <class name="com.qa.test.testBase"/>
+      <class name="com.qa.test.CRUD_Test"/>
+    </classes>
+  </test>
+</suite>

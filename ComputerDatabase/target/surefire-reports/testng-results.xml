@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="5306" started-at="2018-11-04T18:04:11Z" finished-at="2018-11-04T18:04:16Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="5306" started-at="2018-11-04T18:04:11Z" finished-at="2018-11-04T18:04:16Z">
+      <class name="com.qa.test.CRUD_Test">
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:com.qa.test.CRUD_Test@3498ed]" name="testSetUp" is-config="true" duration-ms="4203" started-at="2018-11-04T18:04:06Z" finished-at="2018-11-04T18:04:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method status="PASS" signature="urlLoad()[pri:0, instance:com.qa.test.CRUD_Test@3498ed]" name="urlLoad" is-config="true" duration-ms="1564" started-at="2018-11-04T18:04:11Z" finished-at="2018-11-04T18:04:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlLoad -->
+        <test-method status="PASS" signature="addComputer()[pri:1, instance:com.qa.test.CRUD_Test@3498ed]" name="addComputer" duration-ms="1358" started-at="2018-11-04T18:04:12Z" finished-at="2018-11-04T18:04:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addComputer -->
+        <test-method status="PASS" signature="searchComputer()[pri:2, instance:com.qa.test.CRUD_Test@3498ed]" name="searchComputer" duration-ms="494" started-at="2018-11-04T18:04:14Z" finished-at="2018-11-04T18:04:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchComputer -->
+        <test-method status="PASS" signature="updateComputer()[pri:3, instance:com.qa.test.CRUD_Test@3498ed]" name="updateComputer" duration-ms="1209" started-at="2018-11-04T18:04:14Z" finished-at="2018-11-04T18:04:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateComputer -->
+        <test-method status="PASS" signature="deleteComputer()[pri:4, instance:com.qa.test.CRUD_Test@3498ed]" name="deleteComputer" duration-ms="662" started-at="2018-11-04T18:04:15Z" finished-at="2018-11-04T18:04:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteComputer -->
+        <test-method status="PASS" signature="TeardownTest()[pri:0, instance:com.qa.test.CRUD_Test@3498ed]" name="TeardownTest" is-config="true" duration-ms="664" started-at="2018-11-04T18:04:16Z" finished-at="2018-11-04T18:04:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownTest -->
+      </class> <!-- com.qa.test.CRUD_Test -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

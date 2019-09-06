@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CompuiterDatabase_CRUD]">
+  <test thread-count="5" name="Regression(failed)">
+    <classes>
+      <class name="com.qa.test.CRUD_Test">
+        <methods>
+          <include name="updateComputer"/>
+          <include name="testSetUp"/>
+          <include name="urlLoad"/>
+          <include name="deleteComputer"/>
+          <include name="TeardownTest"/>
+        </methods>
+      </class> <!-- com.qa.test.CRUD_Test -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [CompuiterDatabase_CRUD] -->

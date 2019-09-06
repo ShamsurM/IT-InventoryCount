@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="7" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="CompuiterDatabase_CRUD" duration-ms="5726" started-at="2018-11-04T18:24:58Z" finished-at="2018-11-04T18:25:04Z">
+    <groups>
+    </groups>
+    <test name="Regression" duration-ms="5726" started-at="2018-11-04T18:24:58Z" finished-at="2018-11-04T18:25:04Z">
+      <class name="com.qa.test.CRUD_Test">
+        <test-method status="PASS" signature="addComputer()[pri:1, instance:com.qa.test.CRUD_Test@604ed9f0]" name="addComputer" duration-ms="1319" started-at="2018-11-04T18:25:00Z" finished-at="2018-11-04T18:25:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addComputer -->
+        <test-method status="PASS" signature="searchComputer()[pri:2, instance:com.qa.test.CRUD_Test@604ed9f0]" name="searchComputer" duration-ms="624" started-at="2018-11-04T18:25:01Z" finished-at="2018-11-04T18:25:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchComputer -->
+        <test-method status="PASS" signature="updateComputer()[pri:3, instance:com.qa.test.CRUD_Test@604ed9f0]" name="updateComputer" duration-ms="1222" started-at="2018-11-04T18:25:02Z" finished-at="2018-11-04T18:25:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateComputer -->
+        <test-method status="PASS" signature="deleteComputer()[pri:4, instance:com.qa.test.CRUD_Test@604ed9f0]" name="deleteComputer" duration-ms="729" started-at="2018-11-04T18:25:03Z" finished-at="2018-11-04T18:25:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteComputer -->
+      </class> <!-- com.qa.test.CRUD_Test -->
+      <class name="com.qa.test.testBase">
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:com.qa.test.testBase@91161c7]" name="testSetUp" is-config="true" duration-ms="4602" started-at="2018-11-04T18:24:53Z" finished-at="2018-11-04T18:24:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method status="PASS" signature="urlLoad()[pri:0, instance:com.qa.test.testBase@91161c7]" name="urlLoad" is-config="true" duration-ms="1796" started-at="2018-11-04T18:24:58Z" finished-at="2018-11-04T18:25:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlLoad -->
+        <test-method status="PASS" signature="TeardownTest()[pri:0, instance:com.qa.test.testBase@91161c7]" name="TeardownTest" is-config="true" duration-ms="665" started-at="2018-11-04T18:25:04Z" finished-at="2018-11-04T18:25:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownTest -->
+      </class> <!-- com.qa.test.testBase -->
+    </test> <!-- Regression -->
+  </suite> <!-- CompuiterDatabase_CRUD -->
+</testng-results>

@@ -1,0 +1,4 @@
+com\qa\pageobject\computerDatabasePage.class
+com\qa\utility\dataFileReader.class
+com\qa\test\CRUD_Test.class
+com\qa\test\testBase.class
